@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43386212275CCAD7008C7503 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43386211275CCAD7008C7503 /* AppDelegate.swift */; };
+		43386214275CCAD7008C7503 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43386213275CCAD7008C7503 /* ViewController.swift */; };
+		43386216275CCAD8008C7503 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43386215275CCAD8008C7503 /* Assets.xcassets */; };
+		43386219275CCAD8008C7503 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43386217275CCAD8008C7503 /* Main.storyboard */; };
+		43386224275CCAD9008C7503 /* KeyControlSBMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43386223275CCAD9008C7503 /* KeyControlSBMacTests.swift */; };
+		4338622E275CCAD9008C7503 /* KeyControlSBMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338622D275CCAD9008C7503 /* KeyControlSBMacUITests.swift */; };
+		43386230275CCAD9008C7503 /* KeyControlSBMacUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4338622F275CCAD9008C7503 /* KeyControlSBMacUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43386220275CCAD9008C7503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43386206275CCAD7008C7503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4338620D275CCAD7008C7503;
+			remoteInfo = KeyControlSBMac;
+		};
+		4338622A275CCAD9008C7503 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43386206275CCAD7008C7503 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4338620D275CCAD7008C7503;
+			remoteInfo = KeyControlSBMac;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4338620E275CCAD7008C7503 /* KeyControlSBMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KeyControlSBMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43386211275CCAD7008C7503 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43386213275CCAD7008C7503 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43386215275CCAD8008C7503 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43386218275CCAD8008C7503 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4338621A275CCAD8008C7503 /* KeyControlSBMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KeyControlSBMac.entitlements; sourceTree = "<group>"; };
+		4338621F275CCAD9008C7503 /* KeyControlSBMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyControlSBMacTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43386223275CCAD9008C7503 /* KeyControlSBMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyControlSBMacTests.swift; sourceTree = "<group>"; };
+		43386229275CCAD9008C7503 /* KeyControlSBMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyControlSBMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4338622D275CCAD9008C7503 /* KeyControlSBMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyControlSBMacUITests.swift; sourceTree = "<group>"; };
+		4338622F275CCAD9008C7503 /* KeyControlSBMacUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyControlSBMacUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4338620B275CCAD7008C7503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4338621C275CCAD9008C7503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43386226275CCAD9008C7503 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43386205275CCAD7008C7503 = {
+			isa = PBXGroup;
+			children = (
+				43386210275CCAD7008C7503 /* KeyControlSBMac */,
+				43386222275CCAD9008C7503 /* KeyControlSBMacTests */,
+				4338622C275CCAD9008C7503 /* KeyControlSBMacUITests */,
+				4338620F275CCAD7008C7503 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4338620F275CCAD7008C7503 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4338620E275CCAD7008C7503 /* KeyControlSBMac.app */,
+				4338621F275CCAD9008C7503 /* KeyControlSBMacTests.xctest */,
+				43386229275CCAD9008C7503 /* KeyControlSBMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43386210275CCAD7008C7503 /* KeyControlSBMac */ = {
+			isa = PBXGroup;
+			children = (
+				43386211275CCAD7008C7503 /* AppDelegate.swift */,
+				43386213275CCAD7008C7503 /* ViewController.swift */,
+				43386215275CCAD8008C7503 /* Assets.xcassets */,
+				43386217275CCAD8008C7503 /* Main.storyboard */,
+				4338621A275CCAD8008C7503 /* KeyControlSBMac.entitlements */,
+			);
+			path = KeyControlSBMac;
+			sourceTree = "<group>";
+		};
+		43386222275CCAD9008C7503 /* KeyControlSBMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				43386223275CCAD9008C7503 /* KeyControlSBMacTests.swift */,
+			);
+			path = KeyControlSBMacTests;
+			sourceTree = "<group>";
+		};
+		4338622C275CCAD9008C7503 /* KeyControlSBMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4338622D275CCAD9008C7503 /* KeyControlSBMacUITests.swift */,
+				4338622F275CCAD9008C7503 /* KeyControlSBMacUITestsLaunchTests.swift */,
+			);
+			path = KeyControlSBMacUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4338620D275CCAD7008C7503 /* KeyControlSBMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43386233275CCAD9008C7503 /* Build configuration list for PBXNativeTarget "KeyControlSBMac" */;
+			buildPhases = (
+				4338620A275CCAD7008C7503 /* Sources */,
+				4338620B275CCAD7008C7503 /* Frameworks */,
+				4338620C275CCAD7008C7503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KeyControlSBMac;
+			productName = KeyControlSBMac;
+			productReference = 4338620E275CCAD7008C7503 /* KeyControlSBMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4338621E275CCAD9008C7503 /* KeyControlSBMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43386236275CCAD9008C7503 /* Build configuration list for PBXNativeTarget "KeyControlSBMacTests" */;
+			buildPhases = (
+				4338621B275CCAD9008C7503 /* Sources */,
+				4338621C275CCAD9008C7503 /* Frameworks */,
+				4338621D275CCAD9008C7503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43386221275CCAD9008C7503 /* PBXTargetDependency */,
+			);
+			name = KeyControlSBMacTests;
+			productName = KeyControlSBMacTests;
+			productReference = 4338621F275CCAD9008C7503 /* KeyControlSBMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43386228275CCAD9008C7503 /* KeyControlSBMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43386239275CCAD9008C7503 /* Build configuration list for PBXNativeTarget "KeyControlSBMacUITests" */;
+			buildPhases = (
+				43386225275CCAD9008C7503 /* Sources */,
+				43386226275CCAD9008C7503 /* Frameworks */,
+				43386227275CCAD9008C7503 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4338622B275CCAD9008C7503 /* PBXTargetDependency */,
+			);
+			name = KeyControlSBMacUITests;
+			productName = KeyControlSBMacUITests;
+			productReference = 43386229275CCAD9008C7503 /* KeyControlSBMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43386206275CCAD7008C7503 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					4338620D275CCAD7008C7503 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+					4338621E275CCAD9008C7503 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4338620D275CCAD7008C7503;
+					};
+					43386228275CCAD9008C7503 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 4338620D275CCAD7008C7503;
+					};
+				};
+			};
+			buildConfigurationList = 43386209275CCAD7008C7503 /* Build configuration list for PBXProject "KeyControlSBMac" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43386205275CCAD7008C7503;
+			productRefGroup = 4338620F275CCAD7008C7503 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4338620D275CCAD7008C7503 /* KeyControlSBMac */,
+				4338621E275CCAD9008C7503 /* KeyControlSBMacTests */,
+				43386228275CCAD9008C7503 /* KeyControlSBMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4338620C275CCAD7008C7503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43386216275CCAD8008C7503 /* Assets.xcassets in Resources */,
+				43386219275CCAD8008C7503 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4338621D275CCAD9008C7503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43386227275CCAD9008C7503 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4338620A275CCAD7008C7503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43386214275CCAD7008C7503 /* ViewController.swift in Sources */,
+				43386212275CCAD7008C7503 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4338621B275CCAD9008C7503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43386224275CCAD9008C7503 /* KeyControlSBMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43386225275CCAD9008C7503 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4338622E275CCAD9008C7503 /* KeyControlSBMacUITests.swift in Sources */,
+				43386230275CCAD9008C7503 /* KeyControlSBMacUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43386221275CCAD9008C7503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4338620D275CCAD7008C7503 /* KeyControlSBMac */;
+			targetProxy = 43386220275CCAD9008C7503 /* PBXContainerItemProxy */;
+		};
+		4338622B275CCAD9008C7503 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4338620D275CCAD7008C7503 /* KeyControlSBMac */;
+			targetProxy = 4338622A275CCAD9008C7503 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43386217275CCAD8008C7503 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43386218275CCAD8008C7503 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43386231275CCAD9008C7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43386232275CCAD9008C7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		43386234275CCAD9008C7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyControlSBMac/KeyControlSBMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCWKASK7VP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawnorton.KeyControlSBMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		43386235275CCAD9008C7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KeyControlSBMac/KeyControlSBMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCWKASK7VP;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawnorton.KeyControlSBMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		43386237275CCAD9008C7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCWKASK7VP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawnorton.KeyControlSBMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyControlSBMac.app/Contents/MacOS/KeyControlSBMac";
+			};
+			name = Debug;
+		};
+		43386238275CCAD9008C7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCWKASK7VP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawnorton.KeyControlSBMacTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KeyControlSBMac.app/Contents/MacOS/KeyControlSBMac";
+			};
+			name = Release;
+		};
+		4338623A275CCAD9008C7503 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCWKASK7VP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawnorton.KeyControlSBMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyControlSBMac;
+			};
+			name = Debug;
+		};
+		4338623B275CCAD9008C7503 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HCWKASK7VP;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bawnorton.KeyControlSBMacUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = KeyControlSBMac;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43386209275CCAD7008C7503 /* Build configuration list for PBXProject "KeyControlSBMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43386231275CCAD9008C7503 /* Debug */,
+				43386232275CCAD9008C7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43386233275CCAD9008C7503 /* Build configuration list for PBXNativeTarget "KeyControlSBMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43386234275CCAD9008C7503 /* Debug */,
+				43386235275CCAD9008C7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43386236275CCAD9008C7503 /* Build configuration list for PBXNativeTarget "KeyControlSBMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43386237275CCAD9008C7503 /* Debug */,
+				43386238275CCAD9008C7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43386239275CCAD9008C7503 /* Build configuration list for PBXNativeTarget "KeyControlSBMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4338623A275CCAD9008C7503 /* Debug */,
+				4338623B275CCAD9008C7503 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43386206275CCAD7008C7503 /* Project object */;
+}
